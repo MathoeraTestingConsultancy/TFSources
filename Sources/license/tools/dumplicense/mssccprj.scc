@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[dumplicense.dsp]
+SCC_Aux_Path = "C:\Temp\TestFrame\Engine\SourceSafe-Engine6"
+SCC_Project_Name = "$/source/license/tools/dumplicense", YGBAAAAA
+
+[dumplicense.dsw]
+SCC_Aux_Path = "C:\Temp\TestFrame\Engine\SourceSafe-Engine6"
+SCC_Project_Name = "$/source/license/tools/dumplicense", YGBAAAAA

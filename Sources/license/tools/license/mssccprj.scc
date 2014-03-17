@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[license.dsp]
+SCC_Aux_Path = "C:\Temp\TestFrame\Engine\SourceSafe-Engine6"
+SCC_Project_Name = "$/source/license/tools/license", ZGBAAAAA
+
+[license.dsw]
+SCC_Aux_Path = "C:\Temp\TestFrame\Engine\SourceSafe-Engine6"
+SCC_Project_Name = "$/source/license/tools/license", ZGBAAAAA

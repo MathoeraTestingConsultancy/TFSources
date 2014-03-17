@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[TestFrame.dsp]
+SCC_Aux_Path = "C:\Temp\TestFrame\Engine\SourceSafe-Engine6"
+SCC_Project_Name = "$/source/java/TestFrame", SGBAAAAA
+
+[TestFrame.dsw]
+SCC_Aux_Path = "C:\Temp\TestFrame\Engine\SourceSafe-Engine6"
+SCC_Project_Name = "$/source/java/TestFrame", SGBAAAAA
