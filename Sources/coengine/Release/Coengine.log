@@ -1,0 +1,113 @@
+﻿Build started 17-3-2014 16:37:48.
+     1>Project "D:\GIT Repository\TFSources\Sources\coengine\Coengine.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GIT Repository\TFSources\Sources\Release\Coengine.dll" /INCREMENTAL:NO /NOLOGO Wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\Coengine.def" /MANIFEST:NO /PDB:"D:\GIT Repository\TFSources\Sources\Release\Coengine.pdb" /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\output\Release/Coengine.lib" /MACHINE:X86 /SAFESEH /DLL Release\Coengine.res
+         .\Release/ActionServer.obj
+         .\Release/ActionWord.obj
+         .\Release/ActionWordList.obj
+         .\Release/ActionWordPart.obj
+         .\Release/AddExpression.obj
+         .\Release/AndOperation.obj
+         .\Release/AnythingCommand.obj
+         .\Release/ArgumentCommand.obj
+         .\Release/AssignExpression.obj
+         .\Release/BabelFish.obj
+         .\Release/BasicNavigation.obj
+         .\Release/Cache.obj
+         .\Release/CacheIterator.obj
+         .\Release/Check.obj
+         .\Release/Cluster.obj
+         .\Release/Coengine.obj
+         .\Release/Command.obj
+         .\Release/ComponentKey.obj
+         .\Release/ComposedInterpreter.obj
+         .\Release/Condition.obj
+         .\Release/ConditionalOperation.obj
+         .\Release/Context.obj
+         .\Release/DateCommand.obj
+         .\Release/DateTime.obj
+         .\Release/DivExpression.obj
+         .\Release/Duration.obj
+         .\Release/EmptyCommand.obj
+         .\Release/EngineDebug.obj
+         .\Release/EngineKey.obj
+         .\Release/EngineSetting.obj
+         .\Release/EngineUtil.obj
+         .\Release/EqualOperation.obj
+         .\Release/ErrorList.obj
+         .\Release/ExpressionCommand.obj
+         .\Release/ExprResult.obj
+         .\Release/FileInterface.obj
+         .\Release/FileName.obj
+         .\Release/GreaterEqualOperation.obj
+         .\Release/GreaterOperation.obj
+         .\Release/GuiInterface.obj
+         .\Release/GUIThread.obj
+         .\Release/Interpreter.obj
+         .\Release/IOFactory.obj
+         .\Release/KeepCommand.obj
+         .\Release/Key.obj
+         .\Release/KeyDate.obj
+         .\Release/LessEqualOperation.obj
+         .\Release/LessOperation.obj
+         .\Release/Lexer.obj
+         .\Release/Log.obj
+         .\Release/LogicalCondition.obj
+         .\Release/LogParser.obj
+         .\Release/LogProcessor.obj
+         .\Release/LogReader.obj
+         .\Release/LogStructure.obj
+         .\Release/LogTag.obj
+         .\Release/MasterCommand.obj
+         .\Release/MasterSlavePart.obj
+         .\Release/MulExpression.obj
+         .\Release/Mutex.obj
+         .\Release/NavigationInterface.obj
+         .\Release/NotEmptyCommand.obj
+         .\Release/NotEqualOperation.obj
+         .\Release/Number.obj
+         .\Release/NumExpression.obj
+         .\Release/OrOperation.obj
+         .\Release/ParameterPart.obj
+         .\Release/Parser.obj
+         .\Release/RelationalCondition.obj
+         .\Release/Report.obj
+         .\Release/ReportGenerator.obj
+         .\Release/ReportList.obj
+         .\Release/ReportSummary.obj
+         .\Release/ReportTag.obj
+         .\Release/Result.obj
+         .\Release/Semaphore.obj
+         .\Release/Setting.obj
+         .\Release/Slave.obj
+         .\Release/SlaveCallBackHandler.obj
+         .\Release/SlaveList.obj
+         .\Release/SnapCommand.obj
+         .\Release/SpacesCommand.obj
+         .\Release/StrExpression.obj
+         .\Release/StrUtil.obj
+         .\Release/SubExpression.obj
+         .\Release/tcperror.obj
+         .\Release/TcpHandler.obj
+         .\Release/TcpInterface.obj
+         .\Release/TcpInterfaceCallBackHandler.obj
+         .\Release/TcpIpConnection.obj
+         .\Release/TcpIpServer.obj
+         .\Release/tcpsocket.obj
+         .\Release/Template.obj
+         .\Release/TemplateList.obj
+         .\Release/TestLine.obj
+         .\Release/Thread.obj
+         .\Release/TimeCommand.obj
+         .\Release/UICallBackHandler.obj
+         .\Release/UIHandler.obj
+         .\Release/VarExpression.obj
+            Creating library .\..\output\Release/Coengine.lib and object .\..\output\Release/Coengine.exp
+     1>LogStructure.obj : error LNK2019: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ) referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int,unsigned int)" (?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z)
+     1>LogStructure.obj : error LNK2019: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ) referenced in function "protected: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Grow(unsigned int,bool)" (?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAE_NI_N@Z)
+     1>D:\GIT Repository\TFSources\Sources\Release\Coengine.dll : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "D:\GIT Repository\TFSources\Sources\coengine\Coengine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.69

@@ -1,59 +1,28 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Coengine", "coengine\Coengine.vcproj", "{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Coengine", "coengine\Coengine.vcxproj", "{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageCentre", "messagecentre\MessageCentre.vcproj", "{E6343092-4C69-4D4D-B857-9562563244D1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1C08459C-2925-4E07-AB52-F373772A8924} = {1C08459C-2925-4E07-AB52-F373772A8924}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageCentre", "messagecentre\MessageCentre.vcxproj", "{E6343092-4C69-4D4D-B857-9562563244D1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageCentre Executable", "MessageCentre Executable\MessageCentre Executable.vcproj", "{99030771-CA74-4199-8554-0C1775D827CD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{E6343092-4C69-4D4D-B857-9562563244D1} = {E6343092-4C69-4D4D-B857-9562563244D1}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageCentre Executable", "MessageCentre Executable\MessageCentre Executable.vcxproj", "{99030771-CA74-4199-8554-0C1775D827CD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test+All", "test\Test.vcproj", "{3B3FD87A-0808-4F15-B658-C42DE4857E03}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CA8A1B33-2094-4479-ABFE-06F2FDAFBF2A} = {CA8A1B33-2094-4479-ABFE-06F2FDAFBF2A}
-		{99030771-CA74-4199-8554-0C1775D827CD} = {99030771-CA74-4199-8554-0C1775D827CD}
-		{E6343092-4C69-4D4D-B857-9562563244D1} = {E6343092-4C69-4D4D-B857-9562563244D1}
-		{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB} = {5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}
-		{1C08459C-2925-4E07-AB52-F373772A8924} = {1C08459C-2925-4E07-AB52-F373772A8924}
-		{A93B6DB7-E1D8-43E4-AEEA-A4840CA95C2C} = {A93B6DB7-E1D8-43E4-AEEA-A4840CA95C2C}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test+All", "test\Test.vcxproj", "{3B3FD87A-0808-4F15-B658-C42DE4857E03}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enggui", "enggui\Enggui.vcproj", "{1C08459C-2925-4E07-AB52-F373772A8924}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB} = {5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enggui", "enggui\Enggui.vcxproj", "{1C08459C-2925-4E07-AB52-F373772A8924}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stdcoengine", "stdcoengine\stdcoengine.vcproj", "{CA8A1B33-2094-4479-ABFE-06F2FDAFBF2A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB} = {5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stdcoengine", "stdcoengine\stdcoengine.vcxproj", "{CA8A1B33-2094-4479-ABFE-06F2FDAFBF2A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wrapper", "napi\wrapper\Wrapper.vcproj", "{A93B6DB7-E1D8-43E4-AEEA-A4840CA95C2C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB} = {5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wrapper", "napi\wrapper\Wrapper.vcxproj", "{A93B6DB7-E1D8-43E4-AEEA-A4840CA95C2C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Navigation", "napi\navigation\Navigation.vcproj", "{B4CCCFA7-BA93-4B72-8D5D-5EC6182416F0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Navigation", "napi\navigation\Navigation.vcxproj", "{B4CCCFA7-BA93-4B72-8D5D-5EC6182416F0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example dll", "napi\navigation\example\Example dll.vcproj", "{BF913008-17A7-4F1E-8791-AEC74A484081}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB} = {5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example dll", "napi\navigation\example\Example dll.vcxproj", "{BF913008-17A7-4F1E-8791-AEC74A484081}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example wrapper", "napi\wrapper\example\Example wrapper.vcproj", "{AD9EDF7F-9687-4C12-B204-5045ADF141EB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB} = {5D3C2E98-BB7D-4499-B8D0-7BF1C6779ADB}
-		{B4CCCFA7-BA93-4B72-8D5D-5EC6182416F0} = {B4CCCFA7-BA93-4B72-8D5D-5EC6182416F0}
-		{A93B6DB7-E1D8-43E4-AEEA-A4840CA95C2C} = {A93B6DB7-E1D8-43E4-AEEA-A4840CA95C2C}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example wrapper", "napi\wrapper\example\Example wrapper.vcxproj", "{AD9EDF7F-9687-4C12-B204-5045ADF141EB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deployment", "..\Deployment\Deployment.vcproj", "{436B50A6-DD1A-4A88-AEBF-8E98B35E88A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deployment", "..\Deployment\Deployment.vcxproj", "{436B50A6-DD1A-4A88-AEBF-8E98B35E88A6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestFrame", "java\TestFrame\TestFrame.vcproj", "{EC3EE80F-FE00-4F82-AC2E-C8328497D4AD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestFrame (Java)", "java\TestFrame\TestFrame.vcxproj", "{EC3EE80F-FE00-4F82-AC2E-C8328497D4AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -187,45 +156,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 12
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://src-r-as09:8080/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = coengine\\Coengine.vcproj
-		SccProjectName1 = coengine
-		SccLocalPath1 = coengine
-		SccProjectUniqueName2 = enggui\\Enggui.vcproj
-		SccProjectName2 = enggui
-		SccLocalPath2 = enggui
-		SccProjectUniqueName3 = MessageCentre\u0020Executable\\MessageCentre\u0020Executable.vcproj
-		SccProjectName3 = messagecentre\u0020executable
-		SccLocalPath3 = MessageCentre\u0020Executable
-		SccProjectUniqueName4 = messagecentre\\MessageCentre.vcproj
-		SccProjectName4 = messagecentre
-		SccLocalPath4 = messagecentre
-		SccProjectUniqueName5 = napi\\navigation\\example\\Example\u0020dll.vcproj
-		SccProjectName5 = napi/navigation/example
-		SccLocalPath5 = napi\\navigation\\example
-		SccProjectUniqueName6 = napi\\navigation\\Navigation.vcproj
-		SccProjectName6 = napi/navigation
-		SccLocalPath6 = napi\\navigation
-		SccProjectUniqueName7 = napi\\wrapper\\example\\Example\u0020wrapper.vcproj
-		SccProjectName7 = napi/wrapper/example
-		SccLocalPath7 = napi\\wrapper\\example
-		SccProjectUniqueName8 = napi\\wrapper\\Wrapper.vcproj
-		SccProjectName8 = napi/wrapper
-		SccLocalPath8 = napi\\wrapper
-		SccProjectUniqueName9 = stdcoengine\\stdcoengine.vcproj
-		SccProjectName9 = stdcoengine
-		SccLocalPath9 = stdcoengine
-		SccProjectUniqueName10 = test\\Test.vcproj
-		SccProjectName10 = test
-		SccLocalPath10 = test
-		SccProjectUniqueName11 = ..\\Deployment\\Deployment.vcproj
-		SccProjectName11 = ../Deployment
-		SccLocalPath11 = ..\\Deployment
 	EndGlobalSection
 	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
 		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}

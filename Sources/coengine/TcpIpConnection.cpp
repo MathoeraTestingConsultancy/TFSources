@@ -245,7 +245,7 @@ void					TcpIpConnection::SendMessage
 	}
 
 	// Copy the message to the buffer
-	strcpy(chBuffer, strMessageToSend.c_str());
+	strcpy_s(chBuffer, strMessageToSend.c_str());
 
 	// Terminate the string
 	chBuffer[strMessageToSend.length()]= 0;

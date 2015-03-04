@@ -1,0 +1,41 @@
+﻿Build started 17-3-2014 16:37:49.
+     1>Project "D:\GIT Repository\TFSources\Sources\enggui\Enggui.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Ob1 /Os /Oy- /GT /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo".\Release/" /Fd".\Release/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BabelFish.cpp CDialogThread.cpp CMessageCentre.cpp Enggui.cpp LocalMessageCentre.cpp MessageCentreList.cpp
+         BabelFish.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+     1>BabelFish.cpp(200): warning C4389: '!=' : signed/unsigned mismatch
+     1>BabelFish.cpp(225): warning C4389: '!=' : signed/unsigned mismatch
+     1>BabelFish.cpp(232): warning C4389: '!=' : signed/unsigned mismatch
+     1>BabelFish.cpp(260): warning C4389: '!=' : signed/unsigned mismatch
+     1>BabelFish.cpp(267): warning C4389: '!=' : signed/unsigned mismatch
+     1>BabelFish.cpp(274): warning C4389: '!=' : signed/unsigned mismatch
+         CDialogThread.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+         CMessageCentre.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+         Enggui.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+         LocalMessageCentre.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+         MessageCentreList.cpp
+          WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo".\Release\Enggui.res" Enggui.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../output/Release/Enggui.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\Enggui.def" /MANIFEST:NO /SUBSYSTEM:WINDOWS /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\output\Release/Enggui.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\Enggui.res
+         .\Release/BabelFish.obj
+         .\Release/CDialogThread.obj
+         .\Release/CMessageCentre.obj
+         .\Release/Enggui.obj
+         .\Release/LocalMessageCentre.obj
+         .\Release/MessageCentreList.obj
+         "D:\GIT Repository\TFSources\Sources\output\Release\Coengine.lib"
+            Creating library .\..\output\Release/Enggui.lib and object .\..\output\Release/Enggui.exp
+         Enggui.vcxproj -> D:\GIT Repository\TFSources\Sources\enggui\.\..\output\Release\Enggui.dll
+     1>Done Building Project "D:\GIT Repository\TFSources\Sources\enggui\Enggui.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.27
